@@ -1,0 +1,225 @@
+<html lang="es">
+<head>
+	<html>
+	<head>
+	  <nav nav class="navbar" style="background-color: #0589e8;">
+		<div class="container-fluid">
+		<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiGGl4ppK0XzFisWEf85_eU5fsZvELTIr0j1SX4krViIlEjiZo-fufovZMIo9UzWSMPKf_KSzZzNbxQeHMhRU3kXsroSXS__pDIt8dCxgqbGc59mkaNrVlj9xJ6E6ylkI88eASVzy2SQYEBi6mWFPnJaSaVK-9eQ3Rm0q1143w3s9ErQbFc8kt8m9HH6w" width="70" height="70"><a class="navbar-brand" style="color: aliceblue;" href="quienessomos.html">Quienes somos?</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="nosotros.html">Contribuidores</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Mas
+				</a>
+				<ul class="dropdown-menu">
+				
+				  <li><a class="dropdown-item" href="lugares.html">Lugares Recomendados </a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="tur.html">Datos curiosos</a></li>
+				  <li><a class="dropdown-item" href="comida.html">Comidas Tipicas</a></li>
+				</ul>
+			  </li>
+		  
+			</ul>
+			<form class="d-flex" role="search">
+			  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			  <button class="btn btn-outline-success" type="submit">Search</button>
+			</form>
+		  </div>
+		</div>
+	  </nav>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Guatemala</title>
+	
+	</head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	
+	</head>
+	
+	<meta charset="UTF-8">
+	<title>Comidas típicas de Guatemala</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-color: #F5DEB3;
+			padding: 20px;
+			text-align: center;
+			color: #333;
+			font-size: 36px;
+			font-weight: bold;
+			box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+		}
+
+		nav {
+			background-color: #333;
+			color: #FFF;
+			padding: 10px;
+		}
+
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		nav ul li {
+			margin: 0 10px;
+		}
+
+		nav ul li a {
+			color: #FFF;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: bold;
+			transition: color 0.2s;
+		}
+
+		nav ul li a:hover {
+			color: #F5DEB3;
+		}
+
+		main {
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+		section {
+			flex-basis: calc(33.33% - 20px);
+			margin-bottom: 20px;
+			box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+			transition: transform 0.2s;
+			background-color: #FFF;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			overflow: hidden;
+		}
+
+		section:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 7px 10px rgba(0,0,0,0.2);
+		}
+
+		section img {
+			width: 100%;
+			height: 200px;
+			object-fit: cover;
+		}
+
+		section h2 {
+			font-size: 24px;
+			font-weight: bold;
+			margin: 10px;
+		}
+
+		section p {
+			font-size: 16px;
+			margin: 10px;
+			text-align: justify;
+		}
+
+		@media only screen and (max-width: 768px) {
+			main {
+				flex-direction: column;
+				align-items: center;
+			}
+
+			section {
+				flex-basis: calc(100% - 20px);
+			}
+		}
+	</style>
+</head>
+<body>
+    
+	<header>
+		<h1>Comidas típicas de Guatemala</h1>
+		<nav>
+			<ul>
+                <li><a href="#fiambre">Fiambre</a></li>
+                <li><a href="#tamales">Tamales</a></li>
+				<li><a href="#pepian">Pepián</a></li>
+				<li><a href="#kaqik">Kaq'ik</a></li>
+				<li><a href="#jocon">Jocón</a></li>
+				<li><a href="#tamalitos de elote">Tamalitos</a></li>
+                <li><a href="#ceviche">ceviche</a></li>
+                <li><a href="#plátanos en mole">Plátanos en mole</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section id="pepian">
+        <img src="https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/wqwfzz8ipkc6icyefilf" alt="Pepián con pollo y arroz blanco">
+        <h2>Pepián</h2>
+        <p>El pepián es un platillo guatemalteco originario de la época prehispánica, que se prepara con carne de pollo o res, semillas de ajonjolí, tomate, cebolla, ajo, chile, pan francés y otros ingredientes. Se sirve con arroz blanco y se decora con cebolla encurtida y cilantro.</p>
+    </section>
+
+    <section id="kaqik">
+        <img src="https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/gyap5vwthufzjgot9iah" alt="Kaq'ik con tortillas">
+        <h2>Kaq'ik</h2>
+        <p>El kaq'ik es un caldo picante de origen maya que se prepara con carne de pavo, especias, chiles y otros ingredientes. Se suele servir con tortillas de maíz y se decora con tomate, cilantro y cebolla.</p>
+    </section>
+
+    <section id="jocon">
+        <img src="https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/s4lrjq6zhri4sszeubm1" alt="Jocón de pollo con arroz y frijoles">
+        <h2>Jocón</h2>
+        <p>El jocón es un platillo típico de la región de Alta Verapaz en Guatemala. Se prepara con pollo, especias, semillas de ajonjolí, cilantro, tomate y otros ingredientes. Se sirve con arroz blanco y frijoles volteados.</p>
+    </section>
+
+    <section id="tamalitos de elote">
+        <img src="https://media.istockphoto.com/id/516808999/es/foto/ma%C3%ADz-y-pollo-casera-tamales.jpg?b=1&s=612x612&w=0&k=20&c=Suod3Yl53OwU5XFNhVenwIV8eceG2cdAZp5cZ6CfTtk=" alt="Tamalitos de elote">
+        <h2>Tamalitos de elote</h2>
+        <p>Los tamalitos de elote son una versión miniatura de los tradicionales tamales guatemaltecos, hechos con masa de maíz y rellenos de elote. Se suelen servir como entrada o acompañamiento de otros platillos.</p>
+    </section>
+
+    <section id="tamales">
+        <img src="https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/ssx8ewzpwhtyzbhpfsey" alt="tamales">
+        <h2>tamales</h2>
+        <p>La base del tamal colorado es una masa hecha con harina de maíz y agua, que se hierve y rellena con pollo o cerdo y un recado (salsa) de tomate y chiles. Luego se cubren en hoja de plátano y se vuelven a cocinar, pero esta vez al vapor.</p>
+    </section>
+
+    <section id="ceviche">
+        <img src="https://media.istockphoto.com/id/916519014/es/foto/ceviche.jpg?b=1&s=612x612&w=0&k=20&c=MBTtd-yG1sffKpaePLRVTtlu9QzvMK9WZuJu2ORwM4g=" alt="Ceviche">
+        <h2>Ceviche</h2>
+        <p>Las aguas de Guatemala son ricas en peces y mariscos, con los que se prepara otra de las comidas típicas del país: el ceviche, un platillo que suele comerse los sábados con galletas de soda y una fría cerveza.</p>
+    </section>
+
+    <section id="fiambre">
+        <img src="https://tipsparatuviaje.com/wp-content/uploads/2019/12/fiambre-gua.jpg" alt=" Fiambre">
+        <h2> Fiambre</h2>
+        <p>Una comida tradicional en el Día de Muertos. Una especialidad en la que se mezclan varios tipos de carnes y embutidos servidos con un encurtido preparado con zanahorias, cebollas, ejote, remolacha, coliflor, repollo, pacayas, laurel y tomillo.</p>
+    </section>
+
+    <section id="plátanos en mole">
+        <img src="https://tipsparatuviaje.com/wp-content/uploads/2019/12/platanos-en-mole.jpg" alt="plátanos en mole">
+        <h2>Plátanos en mole </h2>
+        <p>Los plátanos maduros se cortan en rodajas y se fríen. Por otro lado se prepara el mole con sus ingredientes correspondientes, que al estar listo se vierte sobre los plátanos con azúcar al gusto y se hierve por 5 minutos. Después, estarán para comer.</p>
+    </section>
+    <footer>
+		<p>Derechos reservados &adventureguate; 2023</p>
+	</footer>
+</main>
+</body>
+</html>
+                    
